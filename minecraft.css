@@ -68,7 +68,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 16.5%;
+  margin-left: 15%;
 }
 .button button {
   background-color: rgb(1, 156, 1);
@@ -104,7 +104,7 @@ body {
   margin-top: 0%;
 }
 .image img {
-  width: 1500px;
+  width: 1450px;
 }
 .head {
   position: absolute;
@@ -149,4 +149,105 @@ body {
 .button2 button:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(41, 41, 41);
+}
+.background4 {
+  display: flex;
+  background-image: url("asset\ 35.png");
+  width: 100%;
+  height: 225vh;
+}
+.background5 {
+  display: flex;
+  background-image: url("asset\ 36.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150vh;
+}
+.background6 {
+  position: absolute;
+  background-color: rgb(233, 233, 233);
+  width: 90%;
+  height: 125vh;
+  left: 5%;
+  top: 125%;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.gridimg img {
+  height: 55vh;
+  width: 250px;
+  border:solid 3px rgb(219, 219, 219);
+  transition: 500ms;
+}
+.gridimg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
+  margin-left: 10.5%;
+}
+.gridimg img:hover {
+  border:solid 3px rgb(0, 192, 0);
+  cursor: pointer;
+}
+.gridh1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 8.5%;
+  color: green;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.gridh1 h1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+  cursor: pointer;
+}
+.gridh1 h1:hover {
+  color: black;
+}
+.gridp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 13%;
+  font-size: 16px;
+}
+.gridp p {
+  width: 180px;
+}
+.expimg {
+  display: grid;
+  grid-template-columns: repeat(3, 1.5fr);
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+  margin-top: 75%;
+  margin-left: -10%;
+}
+.expimg img{
+  width: 350px;
+  height: 30vh;
+}
+.expp {
+  display: grid;
+  grid-template-columns: repeat(3, 1.5fr);
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  margin-top: 100%;
+  color: white;
+  margin-left: -70%;
 }
